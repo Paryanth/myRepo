@@ -10,3 +10,4 @@ while True:
 cap.release()
 '''release the resources'''
 cv2.destroyAllWindows()
+'''destroy the window'''
