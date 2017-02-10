@@ -1,5 +1,6 @@
 '''this is our videocam project'''
-import cv2 
+import cv2
+'''opening up the camera'''   
 cap = cv2.VideoCapture(0)
 while True:
 	ret, frame = cap.read()
