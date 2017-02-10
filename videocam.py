@@ -1,3 +1,4 @@
+'''this is our videocam project'''
 import cv2 
 cap = cv2.VideoCapture(0)
 while True:
